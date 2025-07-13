@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def run_linear_programming():
     st.title("Optimasi Produksi (Linear Programming)")
-    st.write("Contoh: Maksimalkan Z = 40x + 30y dengan kendala:")
+    st.write("Contoh: Maksimalkan Z = 60x + 40y dengan kendala:")
     st.latex("2x + y \leq 100")
     st.latex("x + y \leq 80")
     st.latex("x, y \geq 0")
